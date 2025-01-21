@@ -1,0 +1,12 @@
+AEM Release Notes - January 21, 2025:
+- Report 01 now include Salt Dissociation Fractions IP
+- Report 03 changed m / c to separate columns m2 and c2
+- Report 05 added "c2, eff, trans" column
+- Report 12 added columns to account for up to 10 solvents that can be used. Preferential ion solvation calculations were upgraded to include local ion density effects
+- Report 18, 19 and 20 bug fix for using "Range" option for dual salts
+- Removed zoom/pan section on graphs to allow visualization to work better on smaller screens
+- Added ability to import other ACCC Solvent Inputs into ACCC Salt and Solvent Forms
+- After running a simulation, a csv folder will be created in the same folder with the reports parsed in csv form
+- Also added a edit button to ACCC Classes when selected
+- Added Ability to delete ACCC Classes
+- Updated User Guide and new Example 8 for AEM Compare Feature
