@@ -1,0 +1,11 @@
+AEM Release Notes - July 21, 2025:
+- Introduced new outputs for Thermal Diffusivity and Specific Heat Capacity in Report 5 and Deby Length in Report 11.
+- Expanded compound library with new species for aqueous flow battery simulations.
+- Option to use a low-concentration salt scale with 0.001 molal step size.
+- Added support for dual ACCC salts within a single simulation.
+- Added two new ACCC solvent input terms:
+  - Pure-solvent melting temperature (°C)
+  - Activation energy for melting behavior (kJ/mol)
+  - These are used to estimate free liquid availability in systems near solid-liquid phase transitions, impacting viscosity and conductivity.
+- Improvements in calculation time and temperature range for large-scale matrix optimization.
+
