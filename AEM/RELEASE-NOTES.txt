@@ -1,0 +1,101 @@
+================================================================================
+Advanced Electrolyte Model (AEM)(TM) — Release Notes
+================================================================================
+
+Product Version : 2026.09.152006
+Build           : 20260915.2
+Release Date    : 15 September 2026 20:13 UTC
+
+Prepared by     : Ridgetop Group, Inc.
+Support         : support@ridgetopgroup.com
+Sales / Licensing : sales@ridgetopgroup.com
+Web             : https://www.ridgetopgroup.com/
+
+These notes describe changes visible to engineers using the AEM Windows
+desktop application for electrolyte property modeling and analysis. For
+installation, licensing, and day-to-day operation, see the AEM User Guide.
+
+
+OVERVIEW
+--------
+
+This release updates the AEM desktop application with a Monaco-based report
+viewer, a 24-hour progress menu with run duration and cancel, ACCC class
+import/export and editor improvements, combined Other Actions controls,
+and YYYY.MM.DDHHMM version numbering.
+
+
+NEW AND ENHANCED FEATURES
+-------------------------
+
+Report viewer
+  - Monaco text editor for viewing simulation reports.
+  - Toggle line numbering on and off.
+  - Find bar for searching documents (toggle available).
+
+Progress menu
+  - Shows runs from the last 24 hours, with duration for each run.
+  - Cancel in-progress runs.
+
+ACCC classes
+  - Export and import ACCC solvent and salt definitions.
+  - Salt and solvent forms can pull values from existing ACCC input files.
+  - Editing an ACCC class name overwrites the current class name instead of
+    creating a duplicate.
+
+ACCC Solvent Class Editor
+  - Import other saved solvent class values.
+  - Import shared solvent/salt values from solvents defined in ACCC salt
+    classes.
+  - Shared solvent/salt values grouped together at the end of the editor.
+
+ACCC Salt Class Editor
+  - Import other saved salt class values.
+  - Import shared solvent/salt values from solvents defined in ACCC solvent
+    classes.
+  - Shared solvent/salt values grouped together at the end of the editor.
+
+AEM output settings
+  - Execution time is saved in settings-<<run_id>>.json and displayed in
+    AEM RUN settings.
+
+Run notifications and application menu
+  - Updated Started, Completed, and Error notifications for AEM runs.
+  - Combined SCAEP, Double Layer, and Focused Report cards into the Other
+    Actions card.
+  - Floating action buttons replaced with an upper-right corner menu.
+
+Charts
+  - Hovering a chart axis label shows a tooltip describing what is displayed
+    (2D charts).
+
+Build versioning
+  - Application version now uses YYYY.MM.DDHHMM format.
+
+
+RELIABILITY AND OUTPUT IMPROVEMENTS
+-----------------------------------
+
+  - Normalized automatic CSV conversion when exporting from the Output tab.
+  - Additional logging to help troubleshoot run issues.
+  - Fixed an issue that prevented some users from running AEM simulations
+    successfully.
+
+
+SUPPORTED CONFIGURATION
+-----------------------
+
+Operating system
+  - Windows 10 and Windows 11 (64-bit recommended).
+
+
+DOCUMENTATION
+-------------
+
+  - AEM User Guide (AEM_UG_Rev 1.7), available with the application.
+
+
+================================================================================
+Copyright (c) 2026 Ridgetop Group, Inc. All rights reserved.
+AEM is a trademark of Ridgetop Group, Inc.
+================================================================================
