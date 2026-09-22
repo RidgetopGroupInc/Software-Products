@@ -1,0 +1,90 @@
+================================================================================
+CellSage(TM) — Release Notes
+================================================================================
+
+Product Version : 2026.09.180144
+Build           : 20260918.1
+Release Date    : 18 September 2026 01:48 UTC
+
+Prepared by     : Ridgetop Group, Inc.
+Support         : support@ridgetopgroup.com
+Sales / Licensing : sales@ridgetopgroup.com
+Web             : https://www.ridgetopgroup.com/
+
+These notes describe changes visible to engineers using the CellSage Windows
+desktop application for battery aging modeling, simulation, and analysis. For
+installation, licensing, and day-to-day operation, see the CellSage User Guide.
+
+
+OVERVIEW
+--------
+
+This release updates the CellSage desktop application with a Monaco-based
+text viewer, chemistry model import/export and reset, SRE fit diagnostics,
+safer chemistry-model editing, and automatic build versioning for About and
+licensing.
+
+
+NEW AND ENHANCED FEATURES
+-------------------------
+
+Text viewer
+  - Monaco text editor for viewing simulation reports.
+  - Toggle line numbering on and off.
+  - Find bar for searching documents (Ctrl+F).
+  - Custom syntax highlighting for CellSage output, parameter files, DCC
+    inputs, and CSV data.
+  - Right-click context menu with copy actions.
+  - Open in System Editor retained from the prior viewer.
+
+Chemistry models
+  - Export the selected chemistry model to a zip archive.
+  - Import chemistry models from zip, tar.gz, or tgz archives.
+  - Confirmation dialog when an import would overwrite an existing model.
+  - Menu option to restore the default chemistry model library, with a
+    warning that custom models and edits will be lost.
+
+SRE fit diagnostics
+  - Fit Diagnostics plot shows observed vs. predicted capacity loss,
+    residuals, and related charts after running the fitter.
+  - SRE Coefficient Reference table documents parameter meaning, typical
+    ranges, and initial values for 2-term and 3-term models.
+
+Build versioning
+  - Version and build date are stamped automatically at build time.
+  - Version format: YYYY.MM.DDHHmm (e.g. 2026.08.111210).
+  - Build date format: MM/DD/YYYY HH:mm.
+  - Displayed in the About dialog and used for licensing.
+
+SRE baseline fitter
+  - Reworked 2-term and 3-term initial-value search with parallel workers.
+  - Parameter bounds checking with hard errors and warnings on results.
+  - Improved Run Fitter dialog and baseline data import UI.
+  - Updated SRE diagram and graphic assets in the chemistry model editor.
+
+Chemistry model editing
+  - Confirmation dialogs when create, rename, or duplicate would overwrite
+    an existing folder.
+  - Improved model verification and folder naming logic.
+
+
+SUPPORTED CONFIGURATION
+-----------------------
+
+Operating system
+  - Windows 10 and Windows 11 (64-bit recommended).
+
+
+DOCUMENTATION
+-------------
+
+  - CellSage User Guide (CellSage_GUI_UG_Rev 2.0), available with the
+    application.
+  - CellSage Product Brief (PB_CellSage.pdf), available with the
+    application.
+
+
+================================================================================
+Copyright (c) 2026 Ridgetop Group, Inc. All rights reserved.
+CellSage is a trademark of Ridgetop Group, Inc.
+================================================================================
