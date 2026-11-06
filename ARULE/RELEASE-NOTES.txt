@@ -1,0 +1,81 @@
+================================================================================
+Adaptive Remaining Useful Life Estimator (ARULE)(TM) — Release Notes
+================================================================================
+
+Product Version : 2026.11.052325
+Build           : 20261105.2
+Release Date    : 5 November 2026 23:28 UTC
+
+Prepared by     : Ridgetop Group, Inc.
+Support         : support@ridgetopgroup.com
+Sales / Licensing : sales@ridgetopgroup.com
+Web             : https://www.ridgetopgroup.com/
+
+These notes describe changes visible to engineers using the ARULE Windows
+desktop application for prognostic analysis. For installation, licensing, and
+day-to-day operation, see the ARULE User Guide.
+
+
+OVERVIEW
+--------
+
+This release replaces the previous Windows desktop application with the new
+standalone ARULE application. Prognostic processing is unchanged. The same
+SDEF and NDEF definitions, signature transforms, and DEMO1, DEMO2, and
+XFD1–XFD9 examples apply.
+
+
+NEW AND ENHANCED FEATURES
+-------------------------
+
+Application
+  - New standalone ARULE desktop application for Feature Data prognosis.
+  - Remaining Useful Life (RUL), State of Health (SoH), and Prognostic
+    Horizon (PH) from ordered Feature Data.
+
+Installation and licensing
+  - Windows installer (ARULE_Setup.exe) distributed as ARULE_Installer.zip.
+  - Digital License Manager activation with email, serial number, and
+    activation code.
+  - ARULE user directory selected on first launch. The default location is
+    the user's Documents folder.
+
+System and node definitions
+  - SDEF dropdown with create, edit, and delete controls.
+  - SDEF editor for the system name, a description of the system, and up to
+    25 node definitions.
+  - NDEF editor for node parameters, a description of the node, and INFILE
+    selection or import (.csv or .txt).
+
+Run and results
+  - Feature Data plot and Run Log on the INFILE card. A successful run
+    reports "UD_ARULE program is ended".
+  - Current-run and saved-run output, including FEATURE DATA, FFP
+    progression (DPS, FFS, and FFIN), SOH, and RUL/PH plots.
+  - Checkpoint restart (CPT) mode for processing 1 to 10000 points and
+    continuing a run.
+
+User data
+  - Workflow for importing Feature Data, defining functional failure,
+    configuring an SDEF and NDEF, running ARULE, and saving results.
+
+
+SUPPORTED CONFIGURATION
+-----------------------
+
+Operating system
+  - Windows 10-11 Professional (64-bit).
+
+
+DOCUMENTATION
+-------------
+
+  - ARULE Software User Guide Rev 1.8 (ARULE_UG.pdf), available with the
+    application. Rev 1.7 described the previous application.
+  - ARULE Product Brief (PB_ARULE.pdf), available with the application.
+
+
+================================================================================
+Copyright (c) 2026 Ridgetop Group, Inc. All rights reserved.
+ARULE is a trademark of Ridgetop Group, Inc.
+================================================================================
